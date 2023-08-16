@@ -1,39 +1,36 @@
 export interface Template {
-  url: string;
   description: string;
   title: string;
 };
+
+const flabbergasted: Template = {
+  description: "Angular, Figma, Typescript,  scss , HTML, Material | (En curso)",
+  title: "Trabajando actualmente (Remoto)"
+};
+
 const svgdoodles: Template = {
-  url: "https://www.svgdoodles.com/",
-  description: " A free collection of 208 super duper SVG Doodles to spice up your online and offline designs!",
-  title: "SVG Doodles"
+  description: "React.js, Next.js, WordPress, Adobe Illustrator, Adobe Photoshop | Agosto 2022 - Marzo 2023 (8 meses)",
+  title: "Marketing Acción Grupal - Desarrollador de Front-End"
 };
 const svggradients: Template = {
-  url: "https://www.svggradients.com/",
-  description: " A free collection of SVG Mesh gradients to use in your design tool or HTML!",
-  title: "SVG Gradients"
+  description: "JavaScript, CSS, HTML, Bootstrap, Python, WordPress | Agosto. 2021 hasta Dicienbre. 2021 (5 meses)",
+  title: "Colamerica - Desarrollador Web"
 };
 const quicksetup: Template = {
-  url: "https://www.figma.com/community/plugin/1074647052897925336",
-  description: " This amazing plugin lets you create empty pages and dividers, no matter what subscription.",
-  title: "Quick Setup"
+  description: "JavaScript, CSS, HTML, Bootstrap, Python, WordPress | Agosto 2022 - Marzo 2023 (8 meses)",
+  title: "Colamerica - Desarrollador Web"
 };
 const vscodethemes: Template = {
-  url: "https://marketplace.visualstudio.com/publishers/wicked-labs",
-  description: " A collection of 7 VS Code themes",
-  title: "VS Code Themes"
+  description: "JavaScript, CSS, HTML, Bootstrap, Python, WordPress | Enero 2020 - Agosto 2021 (1 año y 8 meses)",
+  title: "Innovese - Desarrollador Web"
 };
-const flabbergasted: Template = {
-  url: "https://marketplace.visualstudio.com/publishers/wicked-labs",
-  description: "My newsletter about tech news and articles, tools and tips for UI Designers & Developers.",
-  title: "Flabbergasted"
-};
+
 export const byName = {
+  flabbergasted,
   svgdoodles,
   svggradients,
     quicksetup,
     vscodethemes,
-  flabbergasted
 
 };
 export const otherprojects = Object.values(byName);

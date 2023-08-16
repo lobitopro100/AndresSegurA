@@ -19,6 +19,8 @@
   },
   "dependencies": {
     "@astrojs/sitemap": "^1.0.0",
-    "@astrolib/seo": "^0.3.0"
+    "@astrolib/seo": "^0.3.0",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1"
   }
 }
